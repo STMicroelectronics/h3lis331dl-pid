@@ -38,7 +38,7 @@ This directory contains the H3LIS331DL component drivers.
 
 ### First release
 
-- First official release
+- First official release [ref. DS v3.0]
 
 ##
 
