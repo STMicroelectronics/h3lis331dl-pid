@@ -5,7 +5,7 @@ Sensor driver for H3LIS331DL sensor written in C programming language. This repo
 In order to `clone` the complete content of the repository folder, use the command:
 
 ```
-git clone https://github.com/STMicroelectronics/H3LIS331DL/
+git clone https://github.com/STMicroelectronics/H3LIS331DL-PID/
 ```
 
 Some examples of driver usage can be found [here](https://github.com/STMicroelectronics/STMems_Standard_C_drivers).
