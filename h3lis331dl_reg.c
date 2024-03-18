@@ -1614,7 +1614,7 @@ int32_t h3lis331dl_int1_src_get(const stmdev_ctx_t *ctx,
   * @retval       interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t h3lis331dl_int1_treshold_set(const stmdev_ctx_t *ctx, uint8_t val)
+int32_t h3lis331dl_int1_threshold_set(const stmdev_ctx_t *ctx, uint8_t val)
 {
   h3lis331dl_int1_ths_t int1_ths;
   int32_t ret;
@@ -1640,7 +1640,7 @@ int32_t h3lis331dl_int1_treshold_set(const stmdev_ctx_t *ctx, uint8_t val)
   * @retval       interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t h3lis331dl_int1_treshold_get(const stmdev_ctx_t *ctx, uint8_t *val)
+int32_t h3lis331dl_int1_threshold_get(const stmdev_ctx_t *ctx, uint8_t *val)
 {
   h3lis331dl_int1_ths_t int1_ths;
   int32_t ret;
@@ -1844,7 +1844,7 @@ int32_t h3lis331dl_int2_src_get(const stmdev_ctx_t *ctx,
   * @retval       interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t h3lis331dl_int2_treshold_set(const stmdev_ctx_t *ctx, uint8_t val)
+int32_t h3lis331dl_int2_threshold_set(const stmdev_ctx_t *ctx, uint8_t val)
 {
   h3lis331dl_int2_ths_t int2_ths;
   int32_t ret;
@@ -1870,7 +1870,7 @@ int32_t h3lis331dl_int2_treshold_set(const stmdev_ctx_t *ctx, uint8_t val)
   * @retval       interface status (MANDATORY: return 0 -> no Error)
   *
   */
-int32_t h3lis331dl_int2_treshold_get(const stmdev_ctx_t *ctx, uint8_t *val)
+int32_t h3lis331dl_int2_threshold_get(const stmdev_ctx_t *ctx, uint8_t *val)
 {
   h3lis331dl_int2_ths_t int2_ths;
   int32_t ret;
